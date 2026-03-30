@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tommaso Lattanzio | Official Profile</title>
+    <style>
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; padding: 0; background-color: #ffffff; color: #1a1a1a; line-height: 1.6; }
+        
+        header { padding: 60px 20px 20px 20px; text-align: center; letter-spacing: 5px; }
+        h1 { font-weight: 300; margin: 0; text-transform: uppercase; font-size: 28px; border-bottom: 1px solid #eee; display: inline-block; padding-bottom: 10px; }
+        
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        
+        .stats-grid { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); 
+            gap: 15px; 
+            margin: 40px 0; 
+            padding: 30px; 
+            background: #fcfcfc; 
+            border: 1px solid #f0f0f0;
+            text-align: center; 
+            text-transform: uppercase; 
+            font-size: 11px; 
+            letter-spacing: 1.5px; 
+        }
+        .stat-item b { display: block; font-size: 15px; color: #000; margin-bottom: 3px; font-weight: 500; }
+
+        .gallery { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+            gap: 15px; 
+            margin-top: 20px;
+        }
+        .gallery img { 
+            width: 100%; 
+            height: auto; 
+            display: block; 
+            transition: all 0.4s ease; 
+        }
+        .gallery img:hover { transform: scale(1.02); box-shadow: 0 10px 25px rgba(0,0,0,0.15); z-index: 5; }
+
+        footer { text-align: center; padding: 80px 20px; font-size: 12px; color: #999; letter-spacing: 2px; text-transform: uppercase; }
+        .contact-btn { 
+            display: inline-block; 
+            padding: 15px 40px; 
+            border: 1px solid #1a1a1a; 
+            color: #1a1a1a; 
+            text-decoration: none; 
+            margin: 30px 0; 
+            font-weight: bold;
+            transition: all 0.3s; 
+        }
+        .contact-btn:hover { background: #1a1a1a; color: #fff; }
+
+        @media (max-width: 600px) { 
+            h1 { font-size: 22px; } 
+            .stats-grid { grid-template-columns: 1fr 1fr; gasp: 20px; } 
+            .gallery { grid-template-columns: 1fr 1fr; } /* Due colonne su mobile per scorrere meglio */
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tommaso Lattanzio</h1>
+</header>
+
+<div class="container">
+    <div class="stats-grid">
+        <div class="stat-item"><b>183 / 6'0''</b>Height</div>
+        <div class="stat-item"><b>93 / 36.5''</b>Chest</div>
+        <div class="stat-item"><b>71 / 28''</b>Waist</div>
+        <div class="stat-item"><b>87 / 34''</b>Hips</div>
+        <div class="stat-item"><b>42 / 9 US</b>Shoes</div>
+        <div class="stat-item"><b>Dark Blonde</b>Hair</div>
+        <div class="stat-item"><b>Blue</b>Eyes</div>
+    </div>
+
+    <div class="gallery">
+        <img src="https://i.postimg.cc/q7cD4R1k/IMG-3750-2.jpg" alt="Tommaso Lattanzio - Photo 1">
+        <img src="https://i.postimg.cc/Cxg6tk4r/IMG-3749.jpg" alt="Tommaso Lattanzio - Photo 2">
+        <img src="https://i.postimg.cc/5NSNDqVP/IMG-3712.jpg" alt="Tommaso Lattanzio - Photo 3">
+        <img src="https://i.postimg.cc/pL1xts1B/IMG-3761.jpg" alt="Tommaso Lattanzio - Photo 4">
+        <img src="https://i.postimg.cc/tghrzTPY/IMG-3710.jpg" alt="Tommaso Lattanzio - Photo 5">
+        <img src="https://i.postimg.cc/tTvFdQB8/IMG-3701.jpg" alt="Tommaso Lattanzio - Photo 6">
+        <img src="https://i.postimg.cc/qBn8hYsk/IMG-3732.jpg" alt="Tommaso Lattanzio - Photo 7">
+        <img src="https://i.postimg.cc/8zqp6yB1/IMG-3704.jpg" alt="Tommaso Lattanzio - Photo 8">
+    </div>
+
+    <footer>
+        <p>Currently Based in Italy</p>
+        <a href="mailto:tommy.lattanzio@icloud.com" class="contact-btn">Request Booking</a>
+        <p>Instagram: @tommaso_lattanzio</p>
+    </footer>
+</div>
+
+</body>
+</html>
